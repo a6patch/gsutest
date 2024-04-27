@@ -17,9 +17,12 @@
 6) Normally a build and deployment could be done in a pipeline using GitHub Actions.  I am just running this locally by hand to simplify the process.  My AWS credentials are configured using the normal ~/.aws location.
 
 To install an test this, clone the repo:
+```
+git clone git@github.com:a6patch/gsutest.git gsutest
 cd gsutest
 npm install
 npm run build
 cdk bootstrap
 cdk deploy
 cdk destroy
+```
