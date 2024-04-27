@@ -62,9 +62,9 @@ export async function handler(event: APIGatewayProxyEvent): Promise<APIGatewayPr
             }
             break;
 
-        case 'GET /add':
+        //case 'GET /add':
             // Other methods could be added here.  Instead of handling them inline like this trivial example, they should be in their own handler file.
-            break;
+            // break;
         
         default:
             return {
